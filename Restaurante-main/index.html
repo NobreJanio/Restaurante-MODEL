@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food | FRONT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+    
+    <!--Aqui começa o Home-->
+    <header class="max-width bg" id="home">
+        <div class="container">
+            <div class="menu">
+                <div class="logo"></div>
+                <div class="desktop-menu">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#service">Serviços</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="mobile-menu" onclick="myFuction()">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                    <ul id="myLinks">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#service">Serviços</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="call">
+                <div class="left">
+                    <img src="image/1.png" alt="prato 1">
+                </div>
+                <div class="right">
+                    <h1 class="color-laranja text-gd">Restaurante Food</h1>
+                    <h2 class="color-cinza-1 text-md">Experimente a melhor comida da região</h2>
+                    <p class="text-pq">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Illum doloribus iusto, inventore illo eveniet quas officiis quidem tempora 
+                        beatae, ratione nulla excepturi quo praesentium, tempore saepe soluta modi cupiditate vero.</p>
+                    <button>Ver menu</button>
+                </div>
+            </div>
+        </div>
+        <button id="back-to-top">^</button>
+    </header>
+    <!-- Aqui começa o About -->
+
+    <section class="max-width bg" id="about">
+        <div class="container">
+            <div class="call">
+                <div class="left">
+                    <span class="text-title color-laranja">Sobre Nós</span>
+                    <h2 class="text-md color-cinza-1">Nós cozinhamos a comida mais saborosa</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Quasi quas exercitationem nesciunt amet, nobis ad deleniti 
+                        incidunt odit optio repellat alias quis, eligendi sit quia 
+                        earum velit dolor iste totam!</p>
+                    <button>Saiba mais</button>
+
+                </div>
+                <div class="right">
+                    <img src="image/3.jpg" alt="imagem de comida 3">
+                </div>
+                    
+            </div>
+        </div>
+    </section>
+
+    <!-- Aqui começa o Service -->
+
+    <section class="max-width bg" id="service">
+        <div class="container">
+            <div class="content">
+                <div class="titulo">
+                    <span class="text-title color-laranja">Ofertas</span>
+                    <h2 class="text-md color-cinza-1">Nossos Serviços</h2>
+                </div>
+                <div class="down">
+                    <div class="box">
+                        <i class="fa fa-cutlery text-gd color-laranja"></i>
+                        <h2>A melhor comida</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quisquam dolores animi reiciendis eveniet.</p>           
+                    </div>
+                    <div class="box">
+                        <i class="fa-solid fa-pizza-slice text-gd color-laranja"></i>
+                        <h2>Comida rápida</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quisquam dolores animi reiciendis eveniet.</p>
+                    </div>
+                    <div class="box">
+                        <i class="fa fa-motorcycle text-gd color-laranja"></i>
+                        <h2>Entrega</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quisquam dolores animi reiciendis eveniet.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+     <!-- Aqui começa o Menu -->
+
+     <section class="max-width bg" id="menu">
+        <div class="container">
+            <div class="content">
+                <div class="titulo">
+                    <span class="text-title color-laranja">Prato do  dia</span>
+                    <h2 class="text-md color-cinza-1">Cardápio do dia</h2>
+                </div>
+                <div class="down">
+                    <div class="box">
+                        <img src="image/2.jpg" alt="">
+                        <h2 class="color-laranja">Ovos com pepino</h2>
+                        <p class="text-md">Prato Delicioso</p>
+                        <p>RS 4,0</p>
+                    </div>
+
+                    <div class="box">
+                        <img src="image/4.jpg" alt="">
+                        <h2 class="color-laranja">Pão com salada</h2>
+                        <p class="text-md">Prato Delicioso</p>
+                        <p>RS 22,98</p>
+                    </div>
+
+                    <div class="box">
+                        <img src="image/5.jpeg" alt="">
+                        <h2 class="color-laranja">Saladas Completa</h2>
+                        <p class="text-md">Prato Delicioso</p>
+                        <p>RS 22,98</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Aqui começa o Contato -->
+
+    <section class="max-width bg" id="contact">
+        <div class="container">
+            <div class="call">
+                <div class="left">
+                    <span class="text-title color-laranja">App</span>
+                    <h2 class="text-md color-cinza-1">O aplicativo está disponível</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, 
+                        non aut doloremque molestiae culpa quia accusamus id reiciendis doloribus ad, 
+                        dolorum nisi cum minus deserunt optio perspiciatis nemo. Impedit, veritatis?</p>
+                    <div class="info">
+                        <img src="image/appstore.png" alt="">
+                        <img src="image/playstore.png" alt="">
+                    </div>    
+                </div>
+                <div class="right">
+                    <img src="image/sp.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Aqui começa o Contato -->
+
+    <footer>
+        <div class="container">
+            <img src="image/logo.jpg" alt="">
+            <p class="text-pq">Copyright 2023 <span class="color-laranja">FRONT</span> All Rights Reserved</p>
+            <p class="text-pq">Tel: 99999-9999</p>
+        </div>
+    </footer>
+                    
+    <script>
+        //Botão back-to-top
+        
+        var btm = document.querySelector("#back-to-top");
+        
+        // Initially hide the button
+        btm.style.display = "none";
+
+        // Function to check if element is in viewport
+        function isInViewport(element) {
+            const rect = element.getBoundingClientRect();
+            return (
+                rect.top >= 0 &&
+                rect.left >= 0 &&
+                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+            );
+        }
+
+        // Handle scroll event
+        window.addEventListener('scroll', function() {
+            const homeSection = document.querySelector('#home');
+            const isHome = isInViewport(homeSection);
+            
+            if (isHome) {
+                btm.style.display = "none";
+            } else {
+                btm.style.display = "block";
+            }
+        });
+
+        btm.addEventListener("click", function(){
+            window.scrollTo(0, 0);
+        });
+
+        // Menu mobile 
+
+        function myFuction(){
+            var x = document.getElementById("myLinks")
+            if (x.style.display === "block"){
+                x.style.display = "none";
+            }else{
+                x.style.display = "block"
+            }
+        }
+
+
+    </script>
+ </body>       
+
+</html>
